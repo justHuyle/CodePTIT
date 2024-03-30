@@ -9,7 +9,7 @@ int main() {
 			int cnt = 0;
 			for (int j = (i+1)*i/2; j >= i; j--) {
 				if (cnt == i) break;
-				printf("%d ", j);
+				printf("%c ", (char) j+96);
 				cnt++;
 			}
 			printf("\n");
@@ -17,7 +17,7 @@ int main() {
 			int cnt = 0;
 			for (int j = i*(i-1)/2+1; j <= (i+1)*i/2; j++) {
 				if (cnt == i) break;
-				printf("%d ", j);
+				printf("%c ", (char)j+96);
 				cnt++;
 			}
 			printf("\n");
